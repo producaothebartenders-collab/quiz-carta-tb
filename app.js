@@ -16,6 +16,8 @@
     userChip: document.getElementById("user-chip"),
     drinkCount: document.getElementById("drink-count"),
     drinkList: document.getElementById("drink-list"),
+    drinkSearch: document.getElementById("drink-search"),
+    drinkEmpty: document.getElementById("drink-empty"),
     selectCount: document.getElementById("select-count"),
     btnStart: document.getElementById("btn-start"),
     btnSelectAll: document.getElementById("btn-select-all"),
@@ -223,6 +225,7 @@
     sorted.forEach((drink) => {
       const label = document.createElement("label");
       label.className = "drink-item";
+      label.dataset.search = searchKey(drink.name);
       const cb = document.createElement("input");
       cb.type = "checkbox";
       cb.checked = selectedNames.has(drink.name);
@@ -252,11 +255,37 @@
       label.appendChild(text);
       els.drinkList.appendChild(label);
     });
+    applyDrinkFilter();
     updateSelectUI();
+  }
+
+  function searchKey(s) {
+    return String(s || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function applyDrinkFilter() {
+    const q = searchKey(els.drinkSearch ? els.drinkSearch.value : "");
+    let visible = 0;
+    els.drinkList.querySelectorAll(".drink-item").forEach((item) => {
+      const match = !q || item.dataset.search.includes(q);
+      item.hidden = !match;
+      if (match) visible++;
+    });
+    if (els.drinkEmpty) els.drinkEmpty.hidden = visible > 0;
+  }
+
+  if (els.drinkSearch) {
+    els.drinkSearch.addEventListener("input", applyDrinkFilter);
   }
 
   function openSelect() {
     if (!requireAuth()) return;
+    if (els.drinkSearch) els.drinkSearch.value = "";
     if (!selectedNames.size) drinks.forEach((d) => selectedNames.add(d.name));
     renderDrinkList();
     show(els.select);

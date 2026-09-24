@@ -519,3 +519,16 @@ h1 span { color: var(--gold); }
   color: var(--gold);
   border: 1px solid rgba(232, 184, 120, 0.35);
 }
+
+.drink-search {
+  margin-bottom: 0.7rem;
+}
+.drink-item[hidden] {
+  display: none !important;
+}
+.drink-empty {
+  margin: -0.6rem 0 1rem;
+  color: var(--gold);
+  font-size: 0.9rem;
+  text-align: center;
+}
