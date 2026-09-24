@@ -532,3 +532,72 @@ h1 span { color: var(--gold); }
   font-size: 0.9rem;
   text-align: center;
 }
+
+/* ---------- Ranking ---------- */
+.btn-ranking { margin-top: 0.55rem; }
+.result-actions .btn-ranking { margin-top: 0; }
+.save-status {
+  margin: -0.9rem 0 1.4rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.save-status.ok { color: var(--ok); }
+.save-status.bad { color: var(--bad); }
+.save-status.hidden,
+.ranking-status.hidden,
+.ranking-updated.hidden,
+.ranking-table-wrap.hidden { display: none; }
+.ranking-card { text-align: left; }
+.ranking-status {
+  margin: 0.5rem 0 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(232,184,120,0.14);
+  color: var(--muted);
+  font-size: 0.92rem;
+  text-align: center;
+}
+.ranking-status.bad { color: var(--bad); border-color: rgba(224,122,106,0.35); }
+.ranking-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 0.75rem;
+  border-radius: 14px;
+  border: 1px solid rgba(232,184,120,0.14);
+  background: rgba(0,0,0,0.25);
+}
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.ranking-table th {
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+  font-weight: 600;
+  padding: 0.7rem 0.6rem;
+  border-bottom: 1px solid rgba(232,184,120,0.18);
+}
+.ranking-table td {
+  padding: 0.65rem 0.6rem;
+  border-bottom: 1px solid rgba(232,184,120,0.08);
+  color: var(--cream);
+}
+.ranking-table tr:last-child td { border-bottom: none; }
+.ranking-table .num { text-align: right; white-space: nowrap; }
+.ranking-table td.num { color: var(--muted); }
+.ranking-table td.acertos { color: var(--gold); font-weight: 700; font-size: 1rem; }
+.ranking-table .pos { width: 2.4rem; text-align: center; font-weight: 700; color: var(--gold); padding-left: 0.5rem; padding-right: 0.3rem; }
+.ranking-table .rk-name { display: block; font-weight: 600; line-height: 1.25; }
+.ranking-table .rk-sub { display: block; margin-top: 0.15rem; font-size: 0.72rem; color: rgba(185,165,144,0.75); }
+.ranking-table tr.me td { background: rgba(232,184,120,0.12); }
+.ranking-updated {
+  margin: 0 0 1rem;
+  font-size: 0.78rem;
+  color: rgba(185,165,144,0.7);
+  text-align: right;
+}

@@ -43,7 +43,22 @@
     finalScore: document.getElementById("final-score"),
     resultTitle: document.getElementById("result-title"),
     resultDetail: document.getElementById("result-detail"),
+    ranking: document.getElementById("screen-ranking"),
+    btnRankingStart: document.getElementById("btn-ranking-start"),
+    btnRankingResult: document.getElementById("btn-ranking-result"),
+    btnRankingBack: document.getElementById("btn-ranking-back"),
+    btnRankingRetry: document.getElementById("btn-ranking-retry"),
+    rankingStatus: document.getElementById("ranking-status"),
+    rankingTableWrap: document.getElementById("ranking-table-wrap"),
+    rankingBody: document.getElementById("ranking-body"),
+    rankingUpdated: document.getElementById("ranking-updated"),
+    saveStatus: document.getElementById("save-status"),
   };
+
+  // URL do App da Web (Apps Script) definida em config.js. Vazia = ranking desligado.
+  const RANKING_API_URL = String(window.RANKING_API_URL || "").trim();
+  const RANKING_KEY_PREFIX = "tb-quiz-ranking|"; // igual ao PREFIXO_CHAVE do Code.gs
+  const RANKING_TIMEOUT_MS = 20000;
 
   let drinks = [];
   let authUsers = [];
@@ -53,10 +68,13 @@
   let index = 0;
   let score = 0;
   let answered = false;
+  let playedDrinks = [];
+  let resultSaved = false;
+  let rankingReturnScreen = null;
   const AUTH_KEY = "tb-quiz-user";
 
   function show(screen) {
-    [els.login, els.start, els.select, els.quiz, els.result].forEach((s) => {
+    [els.login, els.start, els.select, els.quiz, els.result, els.ranking].forEach((s) => {
       if (s) s.classList.remove("active");
     });
     screen.classList.add("active");
@@ -546,6 +564,8 @@
       alert("Não foi possível montar perguntas com os drinks selecionados.");
       return;
     }
+    playedDrinks = [...new Set(focus.map((d) => d.name))];
+    resultSaved = false;
     index = 0;
     score = 0;
     answered = false;
@@ -783,7 +803,149 @@
       `Você acertou ${acertos} de ${questions.length} perguntas` +
       ` (${nFocus} drink${nFocus === 1 ? "" : "s"} · 4 perguntas cada).`;
     show(els.result);
+    submitResult(acertos, questions.length);
   }
+
+  /* ---------- Ranking (Google Apps Script) ---------- */
+
+  function setSaveStatus(text, kind) {
+    if (!els.saveStatus) return;
+    els.saveStatus.textContent = text || "";
+    els.saveStatus.className = "save-status" + (text ? "" : " hidden") + (kind ? " " + kind : "");
+  }
+
+  function fetchWithTimeout(url, options = {}) {
+    const ctrl = typeof AbortController !== "undefined" ? new AbortController() : null;
+    const timer = ctrl ? setTimeout(() => ctrl.abort(), RANKING_TIMEOUT_MS) : null;
+    return fetch(url, { ...options, signal: ctrl ? ctrl.signal : undefined }).finally(() => {
+      if (timer) clearTimeout(timer);
+    });
+  }
+
+  /** Envia o resultado. Nunca envia CPF: só nome, chave anônima e números. */
+  async function submitResult(acertos, total) {
+    if (!RANKING_API_URL) {
+      setSaveStatus("", "");
+      return;
+    }
+    if (resultSaved || !currentUser) return;
+    resultSaved = true; // evita envio duplo do mesmo quiz
+    setSaveStatus("Salvando seu resultado no ranking…", "pending");
+    try {
+      const chave = currentUser.pinHash ? await sha256Hex(RANKING_KEY_PREFIX + currentUser.pinHash) : "";
+      const payload = {
+        nome: currentUser.name,
+        chave,
+        acertos,
+        total,
+        drinks: playedDrinks,
+      };
+      const res = await fetchWithTimeout(RANKING_API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" }, // text/plain evita preflight CORS
+        body: JSON.stringify(payload),
+        redirect: "follow",
+      });
+      const data = await res.json().catch(() => null);
+      if (!res.ok || !data || !data.ok) throw new Error((data && data.erro) || `HTTP ${res.status}`);
+      setSaveStatus("✓ Resultado salvo no ranking!", "ok");
+    } catch (err) {
+      console.warn("Falha ao salvar resultado:", err);
+      setSaveStatus("Não foi possível salvar seu resultado agora. Seu quiz não foi afetado.", "bad");
+    }
+  }
+
+  function setupRankingButtons() {
+    [els.btnRankingStart, els.btnRankingResult].forEach((btn) => {
+      if (!btn) return;
+      if (!RANKING_API_URL) {
+        btn.disabled = true;
+        btn.textContent = "🏆 Ranking em breve";
+      } else {
+        btn.addEventListener("click", openRanking);
+      }
+    });
+    if (els.btnRankingBack) {
+      els.btnRankingBack.addEventListener("click", () => show(rankingReturnScreen || els.start));
+    }
+    if (els.btnRankingRetry) els.btnRankingRetry.addEventListener("click", loadRanking);
+  }
+
+  function openRanking() {
+    const current = [els.start, els.result].find((s) => s && s.classList.contains("active"));
+    rankingReturnScreen = current || els.start;
+    show(els.ranking);
+    loadRanking();
+  }
+
+  function setRankingStatus(text, kind) {
+    els.rankingStatus.textContent = text || "";
+    els.rankingStatus.className = "ranking-status" + (text ? "" : " hidden") + (kind ? " " + kind : "");
+  }
+
+  async function loadRanking() {
+    els.rankingTableWrap.classList.add("hidden");
+    els.rankingUpdated.classList.add("hidden");
+    els.btnRankingRetry.classList.add("hidden");
+    setRankingStatus("Carregando ranking…", "pending");
+    try {
+      const sep = RANKING_API_URL.includes("?") ? "&" : "?";
+      const res = await fetchWithTimeout(`${RANKING_API_URL}${sep}action=ranking&t=${Date.now()}`, {
+        redirect: "follow",
+      });
+      const data = await res.json();
+      if (!res.ok || !data || !data.ok) throw new Error((data && data.erro) || `HTTP ${res.status}`);
+      renderRanking(Array.isArray(data.ranking) ? data.ranking : [], data.atualizadoEm);
+    } catch (err) {
+      console.warn("Falha ao carregar ranking:", err);
+      setRankingStatus("Não foi possível carregar o ranking. Verifique a conexão e tente de novo.", "bad");
+      els.btnRankingRetry.classList.remove("hidden");
+    }
+  }
+
+  function renderRanking(list, updatedAt) {
+    els.rankingBody.innerHTML = "";
+    if (!list.length) {
+      setRankingStatus("Ainda não há resultados. Jogue um quiz e seja o primeiro do ranking!", "");
+      return;
+    }
+    setRankingStatus("", "");
+    const medals = ["🥇", "🥈", "🥉"];
+    list.slice(0, 10).forEach((row, i) => {
+      const tr = document.createElement("tr");
+      const pos = Number(row.posicao) || i + 1;
+      if (currentUser && row.nome === currentUser.name) tr.className = "me";
+      const pct = Number(row.percentual) || 0;
+      const quizzes = Number(row.quizzes) || 0;
+      const addCell = (cls) => {
+        const td = document.createElement("td");
+        if (cls) td.className = cls;
+        tr.appendChild(td);
+        return td;
+      };
+      addCell("pos").textContent = medals[pos - 1] || `${pos}º`;
+      const nameCell = addCell("name");
+      const nameEl = document.createElement("span");
+      nameEl.className = "rk-name";
+      nameEl.textContent = String(row.nome || "—"); // textContent: nomes nunca viram HTML
+      const subEl = document.createElement("span");
+      subEl.className = "rk-sub";
+      subEl.textContent = `${quizzes} quiz${quizzes === 1 ? "" : "zes"} · ${Number(row.perguntas) || 0} perguntas`;
+      nameCell.appendChild(nameEl);
+      nameCell.appendChild(subEl);
+      addCell("num acertos").textContent = String(Number(row.acertos) || 0);
+      addCell("num").textContent =
+        `${pct.toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%`;
+      els.rankingBody.appendChild(tr);
+    });
+    els.rankingTableWrap.classList.remove("hidden");
+    if (updatedAt) {
+      els.rankingUpdated.textContent = `Atualizado em ${updatedAt}`;
+      els.rankingUpdated.classList.remove("hidden");
+    }
+  }
+
+  setupRankingButtons();
 
   els.btnStart.addEventListener("click", () => { if (requireAuth()) openSelect(); });
   els.btnSelectAll.addEventListener("click", () => {
