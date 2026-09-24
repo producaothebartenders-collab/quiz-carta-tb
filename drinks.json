@@ -1,0 +1,2314 @@
+[
+  {
+    "name": "AMARO WHISKEY",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "CYNAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "MAPLE SYRUP",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "1",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, AMADEIRADO",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "GENGIBRE NO PALITO E COPA DE HORTELÃ",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "APEROL SOUR",
+    "ingredients": [
+      {
+        "name": "APEROL",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE LARANJA (1L)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR AVELÃ / FRANGELICO",
+        "qty": "10",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, EQUILIBRADO, AMENDOADO",
+    "copo": "TAÇA COUPÉ ENTALHADA (TIMELESS) 255ML",
+    "guarnicao": "TWIST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, GELAR TAÇA, COAGEM DUPLA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "BRASILIDADE",
+    "ingredients": [
+      {
+        "name": "BLEND DE TERROIR",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "VODKA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CUPUAÇU",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO",
+    "copo": "TAÇA COUPÉ BORDA ALTA (MEGAN) 300 ML",
+    "guarnicao": "CRAVÍNEA E PAPEL DE ARROZ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "BRASILIDADE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE TERROIR",
+        "qty": "100",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CUPUAÇU",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO",
+    "copo": "TAÇA COUPÉ BORDA ALTA (MEGAN) 300 ML",
+    "guarnicao": "CRAVÍNEA E PAPEL DE ARROZ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "CHERRY SPICED",
+    "ingredients": [
+      {
+        "name": "VINHO BRANCO",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE CHERRY SPICED",
+        "qty": "45",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA CACAU",
+        "qty": "2",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO, PICANTE",
+    "copo": "TAÇA COUPÉ 180 ML",
+    "guarnicao": "TUILE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "CHERRY SPICED SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "SUCO DE UVA BRANCA (1,5L)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE CHERRY SPICED",
+        "qty": "45",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA CACAU",
+        "qty": "2",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO, PICANTE",
+    "copo": "TAÇA COUPÉ 180 ML",
+    "guarnicao": "TUILE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "NEW CUMARU",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE CUMARU SOUR",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FORTE, DOCE, AMADEIRADO",
+    "copo": "COPO DE WHISKEY 410 ML",
+    "guarnicao": "GELO CUBO COM CARIMBO DE COLMÉIA",
+    "gelo": "GELO CUBO NORMAL (5.5.5)",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "GINGER JULEP",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE GENGIBRE",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "HORTELÃ (VASO)",
+        "qty": "6",
+        "unit": "FOLHAS"
+      }
+    ],
+    "paladar": "AMADEIRADO, PICANTE",
+    "copo": "COPO DE WHISKEY 410 ML",
+    "guarnicao": "HOTELÃ GENGIBRE GLACEADO NO PALITO",
+    "gelo": "",
+    "canudo": "CURTO",
+    "preparo": "BATIDO, COAGEM DUPLA, COPO COM GELO NOVO",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "GREEN BOSSA",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE GREEN BOSSA",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA DE COCO (1L)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "UVA BRANCA",
+        "qty": "8",
+        "unit": "UNIDADES"
+      }
+    ],
+    "paladar": "FRUTADO, LEVE",
+    "copo": "TAÇA DE VINHO (LOXIA) 400 ML",
+    "guarnicao": "3 UVAS VERDES NO PALITO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MAÇERADO, BATIDO, COAGEM DUPLA, COPO COM GELO NOVO",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "GREEN BOSSA  SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE GREEN BOSSA",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA DE COCO (1L)",
+        "qty": "80",
+        "unit": "ML"
+      },
+      {
+        "name": "UVA BRANCA",
+        "qty": "8",
+        "unit": "UNIDADES"
+      }
+    ],
+    "paladar": "FRUTADO, LEVE",
+    "copo": "TAÇA DE VINHO (LOXIA) 400 ML",
+    "guarnicao": "3 UVAS VERDES NO PALITO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MAÇERADO, BATIDO, COAGEM DUPLA, COPO COM GELO NOVO",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "HIPE FASHIONED",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR WHISKY / DRAMBUIE",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "MAPLE SYRUP",
+        "qty": "5",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMADEIRADO, FORTE",
+    "copo": "COPO DE WHISKEY 410 ML",
+    "guarnicao": "ABACAXI DESIDRATADO",
+    "gelo": "GELO CUBO NORMAL (5.5.5)",
+    "canudo": "",
+    "preparo": "MONTADO, MEXIDO",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "JAGER TASTE",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "JAGERMEISTER",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE JAGER TASTE",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "HORTELÃ (VASO)",
+        "qty": "6",
+        "unit": "FOLHAS"
+      },
+      {
+        "name": "ÁGUA TÔNICA(NORMAL OU ZERO",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "PREPARO DO BLEND",
+        "qty": "2/3 BLEND - 1/3 SUCO DE LARANJA",
+        "unit": "PARA 1 GARRAFA DE 750 ML\n500 ML BLEND - 250 ML SUCO"
+      }
+    ],
+    "paladar": "AMARGO, FRUTADO, REFRESCANTE",
+    "copo": "TAÇA DE CONHAQUE 400 ML",
+    "guarnicao": "COPA DE MANJERICÃO OU HORTELÃ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, COPO COM GELO NOVO, COMPLETAR COM SOFT DRINK",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "MOANA HARI",
+    "ingredients": [
+      {
+        "name": "RUM PRATA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE MOANA HARI",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE ABACAXI DILUÍDO",
+        "qty": "60",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, EQUILIBRADO, PICANTE",
+    "copo": "COPO LONG DRINK (L'HERMITAGE) 360ML",
+    "guarnicao": "LARANJA DESIDRATADA E CANELA EM RAMA",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "MOANA HARI SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE MOANA HARI",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE ABACAXI DILUÍDO",
+        "qty": "90",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, EQUILIBRADO, PICANTE",
+    "copo": "COPO LONG DRINK (L'HERMITAGE) 360ML",
+    "guarnicao": "LARANJA DESIDRATADA E CANELA EM RAMA",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "NEW MOANA HARI",
+    "ingredients": [
+      {
+        "name": "RUM PRATA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE MOANA HARI",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE ABACAXI DILUIDO",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA DE AMÊNDOAS",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, EQUILIBRADO, PICANTE",
+    "copo": "COPO LONG DRINK (L'HERMITAGE) 360ML",
+    "guarnicao": "CANELA EM RAMA",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "NEW MOANA HARI SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE MOANA HARI",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE ABACAXI DILUÍDO",
+        "qty": "80",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA DE AMÊNDOAS",
+        "qty": "20",
+        "unit": ""
+      }
+    ],
+    "paladar": "DOCE, EQUILIBRADO, PICANTE",
+    "copo": "COPO LONG DRINK (L'HERMITAGE) 360ML",
+    "guarnicao": "CANELA EM RAMA",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "NEW FASHIONED",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR WHISKY / DRAMBUIE",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR CHAMBORD",
+        "qty": "5",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMADEIRADO, FORTE",
+    "copo": "COPO DE WHISKEY 410 ML",
+    "guarnicao": "GELO ESPECIAL",
+    "gelo": "GELO CUBO NORMAL (5.5.5)",
+    "canudo": "",
+    "preparo": "MEXIDO, DIRETONO NO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "NOIR",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "CACHAÇA (TB)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE NOIR",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, CÍTRICO",
+    "copo": "COPO DE WHISKEY (DOURADO FOREST)",
+    "guarnicao": "GELO DE ESFERA",
+    "gelo": "GELO ESFERA",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELO ESPECIAL",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "NOIR SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA SABORIZADA (H2OH / SPRITE) (1,5L)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE NOIR",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE",
+    "copo": "COPO DE WHISKEY (DOURADO FOREST)",
+    "guarnicao": "GELO DE ESFERA",
+    "gelo": "GELO ESFERA",
+    "canudo": "",
+    "preparo": "BATIDO - COAGEM DUPLA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "RAIZ CARIOCA",
+    "ingredients": [
+      {
+        "name": "CACHAÇA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE RAIZ CARIOCA",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, REFRESCANTE, FORTE",
+    "copo": "COPO DE WHISKEY (L'HERMITAGE) 330ML",
+    "guarnicao": "LIMÃO DESIDRATADO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "RED ANGEL",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE FRUTAS VERMELHAS",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR 43 ORIGINAL",
+        "qty": "5",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMANTE (TB)",
+        "qty": "50",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, LEVE",
+    "copo": "TAÇA DE VINHO (BUTEO) 350 ML",
+    "guarnicao": "GELO CUBO, FLOR E PÓ PEROLADO",
+    "gelo": "GELO CUBO WELCOME (4.5)",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMANTE",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "RED ANGEL SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA SABORIZADA (H2OH / SPRITE) (1,5L)",
+        "qty": "80",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE FRUTAS VERMELHAS",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMANTE SEM ALCOOL (TB)",
+        "qty": "50",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, LEVE",
+    "copo": "TAÇA DE VINHO (BUTEO) 350 ML",
+    "guarnicao": "GELO CUBO, FLOR E PÓ PEROLADO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMANTE",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "SICILIAN",
+    "ingredients": [
+      {
+        "name": "VINHO BRANCO",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE SICILIAN",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR LIMONCELLO (TB)",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "HORTELÃ (VASO)",
+        "qty": "2",
+        "unit": "FOLHAS"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO, CÍTRICO",
+    "copo": "TAÇA COUPÉ (XTRA) 220 ML",
+    "guarnicao": "GELO CUBO COM CARIMBO TB",
+    "gelo": "GELO CUBO SICILIAN (5.5.4)",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "SICILIAN SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA SABORIZADA (H2OH / SPRITE) (1,5L)",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE SICILIAN",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE LIMÃO SICILIANO",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "HORTELÃ (VASO)",
+        "qty": "2",
+        "unit": "FOLHAS"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO, CÍTRICO",
+    "copo": "TAÇA COUPÉ (XTRA) 220 ML",
+    "guarnicao": "GELO CUBO COM CARIMBO TB",
+    "gelo": "GELO CUBO SICILIAN (5.5.4)",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "SPECIAL MULE",
+    "ingredients": [
+      {
+        "name": "CACHAÇA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE SPICY MANGO",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "10",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CANELA",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "PICANTE, DOCE",
+    "copo": "TAÇA MARTINI DE COBRE",
+    "guarnicao": "CAQUI ACOBREADO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "SPECIAL MULE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "GIN SEM ÁLCOOL",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE SPICY MANGO",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "10",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CANELA",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "PICANTE, DOCE",
+    "copo": "TAÇA MARTINI DE COBRE",
+    "guarnicao": "CAQUI ACOBREADO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "SPRING PUNCH",
+    "ingredients": [
+      {
+        "name": "RUM PRATA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE UVA BRANCA (1,5L)",
+        "qty": "35",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE LICHIA",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA BAUNILHA",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, ADOCICADO",
+    "copo": "TAÇA COUPÉ BORDA MÉDIA (MEGAN) 290 ML",
+    "guarnicao": "LOGO DOS NOIVOS & FLOR ROXA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "SPRING PUNCH SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "SUCO DE UVA BRANCA (1,5L)",
+        "qty": "90",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE LICHIA",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA BAUNILHA",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, ADOCICADO",
+    "copo": "TAÇA COUPÉ BORDA MÉDIA (MEGAN) 290 ML",
+    "guarnicao": "LOGO DOS NOIVOS & FLOR ROXA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "TB ROYALE",
+    "ingredients": [
+      {
+        "name": "GIN TANQUERAY ROYALE",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "VINHO BRANCO",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE TB ROYALE",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "ALBULMINA",
+        "qty": "0.5",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO, CÍTRICO",
+    "copo": "TAÇA CLÁUDIA",
+    "guarnicao": "MOSQUITINHO PRESO NA TAÇA COM MINI-GRAMPO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "TB ROYALE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "CHÁ BRANCO COM PITAYA",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE TB ROYALE",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE UVA BRANCA (1,5L)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": ""
+      }
+    ],
+    "paladar": "DOCE, FRUTADO, CÍTRICO",
+    "copo": "TAÇA CLÁUDIA",
+    "guarnicao": "MOSQUITINHO PRESO NA TAÇA COM MINI-GRAMPO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "TERROIR",
+    "ingredients": [
+      {
+        "name": "BLEND DE TERROIR",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "CACHAÇA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CUPUAÇU",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "GÁS PARA SIFÃO",
+        "qty": "0.1",
+        "unit": ""
+      }
+    ],
+    "paladar": "DOCE, FRUTADO",
+    "copo": "TAÇA COUPÉ BORDA ALTA (MEGAN) 300 ML",
+    "guarnicao": "FLOR CRAVÍNEA E PAPEL DE ARROZ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "TERROIR SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE TERROIR",
+        "qty": "100",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA CUPUAÇU",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, FRUTADO",
+    "copo": "TAÇA COUPÉ BORDA ALTA (MEGAN) 300 ML",
+    "guarnicao": "FLOR CRAVÍNEA E PAPEL DE ARROZ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "TULUM",
+    "ingredients": [
+      {
+        "name": "SAQUÊ (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE TULUM",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "CHÁ BRANCO COM PITAYA",
+        "qty": "50",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, LEVE, FLORAL",
+    "copo": "TAÇA DE CONHAQUE 690 ML",
+    "guarnicao": "ROSA COMESTÍVEL",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "TULUM SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE TULUM",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "CHÁ BRANCO COM PITAYA",
+        "qty": "100",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, LEVE, FLORAL",
+    "copo": "TAÇA DE CONHAQUE 690 ML",
+    "guarnicao": "ROSA COMESTÍVEL",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "TROPICAL MULE",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE TROPICAL MULE",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA AMARETTO COM ESPECIARIAS",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "TAÇA COUPÉ DE COBRE",
+    "guarnicao": "FOLHA DESIDRATADA COBREADA COM MINI GRAMPO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "TROPICAL MULE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "XV ANOS - USAR H2OH!\nCASAMENTOS - USAR ÁGUA TÔNICA",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE TROPICAL MULE",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA AMARETTO COM ESPECIARIAS",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "TAÇA COUPÉ DE COBRE",
+    "guarnicao": "FOLHA DESIDRATADA COBREADA COM MINI GRAMPO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, TAÇA COM 4 PEDRAS DE GELO, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "WELCOME SUMMER",
+    "ingredients": [
+      {
+        "name": "VERMOUTH BIANCO",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE WELCOME SUMMER",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA DE COCO (1L)",
+        "qty": "100",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "40",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "LEVE, FRUTADO",
+    "copo": "TAÇA DE VINHO (SANDRA) 570 ML",
+    "guarnicao": "PINTURA NA TAÇA COM HIBISCO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "autorais"
+  },
+  {
+    "name": "WELCOME SUMMER SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "BLEND DE WELCOME SUMMER",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA DE COCO (1L)",
+        "qty": "150",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "40",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "LEVE, FRUTADO",
+    "copo": "TAÇA DE VINHO (SANDRA) 570 ML",
+    "guarnicao": "PINTURA NA TAÇA COM HIBISCO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": true,
+    "carta": "autorais"
+  },
+  {
+    "name": "APEROL SPRITZ",
+    "ingredients": [
+      {
+        "name": "APEROL",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMANTE PROSECCO (TB)",
+        "qty": "80",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA COM GÁS(OPCIONAL)",
+        "qty": "30",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, REFRESCANTE",
+    "copo": "TAÇA DE VINHO (XTRA) 460 ML",
+    "guarnicao": "LARANJA - MEIA RODELA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "FITZGERALD",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO",
+    "copo": "COPO DE WHISKEY (XTRA)",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO",
+    "gelo": "",
+    "canudo": "CURTO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "FITZGERALD SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA SABORIZADA (H2OH / SPRITE) (1,5L)",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "1",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO",
+    "copo": "COPO DE WHISKEY (XTRA)",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO",
+    "gelo": "",
+    "canudo": "CURTO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "MY BRAMBLE (FITZGERALD)",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "DASH"
+      }
+    ],
+    "paladar": "FRUTADO, CÍTRICO",
+    "copo": "COPO DE WHISKEY (XTRA)",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO E FRASCO DE XAROPE DE AMORA",
+    "gelo": "",
+    "canudo": "CURTO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, ENTREGAR FRASCO PARA O CLIENTE FINALIZAR",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "MY BRAMBLE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA SABORIZADA (H2OH / SPRITE) (1,5L)",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "1",
+        "unit": "DASH"
+      }
+    ],
+    "paladar": "FRUTADO, CÍTRICO",
+    "copo": "COPO DE WHISKEY (XTRA)",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO E FRASCO DE XAROPE DE AMORA",
+    "gelo": "",
+    "canudo": "CURTO",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, ENTREGAR FRASCO PARA O CLIENTE FINALIZAR",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "GIN TÔNICA",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA TÔNICA(NORMAL OU ZERO)",
+        "qty": "COMPLETAR",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, SECO, REFRESCANTE",
+    "copo": "TAÇA DE GIN 600 ML",
+    "guarnicao": "CANELA/HIBISCO/FRUTAS/CHÁ TWINNINGS",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA, INFUSIONAR O CHÁ COM O GIN ANTES DE COLOCAR O GELO",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "HUGO SPRITZ",
+    "ingredients": [
+      {
+        "name": "LICOR FLOR DE SABUGUEIRO / ST GERMAIN",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMANTE (TB)",
+        "qty": "90",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "DOCE, REFRESCANTE",
+    "copo": "TAÇA DE VINHO (XTRA) 460 ML",
+    "guarnicao": "GELO CUBO",
+    "gelo": "GELO CUBO NORMAL (5.5.5)",
+    "canudo": "",
+    "preparo": "MONTADO",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "LILLET TÔNICA",
+    "ingredients": [
+      {
+        "name": "LILLET",
+        "qty": "70",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA TÔNICA(NORMAL OU ZERO",
+        "qty": "COMPLETAR",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "REFRESCANTE, HERBAL",
+    "copo": "TAÇA DE VINHO (XTRA) 460 ML",
+    "guarnicao": "PEPINO - MORANGO - HORTELÃ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "MACUNAÍMA",
+    "ingredients": [
+      {
+        "name": "CACHAÇA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE AÇÚCAR E FERNET",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "PREPARO DO BLEND - 1 LITRO",
+        "qty": "",
+        "unit": ""
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "730.0",
+        "unit": "ML"
+      },
+      {
+        "name": "FERNET BRANCA",
+        "qty": "270.0",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, REFRESCANTE, FORTE",
+    "copo": "COPO DE WHISKEY (L'HERMITAGE) 330ML",
+    "guarnicao": "LIMÃO DESIDRATADO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "MOSCOW MULE",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE MOSCOW MULE",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA GENGIBRE",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "CANECA DE COBRE",
+    "guarnicao": "LIMÃO DESITRATADO APOIADO NA HASTE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "MOSCOW MULE SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "ÁGUA TÔNICA NORMAL OU ZERO",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "BLEND DE MOSCOW MULE",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA GENGIBRE",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "CANECA DE COBRE",
+    "guarnicao": "LIMÃO DESITRATADO APOIADO NA HASTE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "MOSCOW MULE - RECEITA CLÁSSICA",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA GENGIBRE",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "CANECA DE COBRE",
+    "guarnicao": "LIMÃO DESITRATADO APOIADO NA HASTE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "MOSCOW MULE SEM ÁLCOOL - RECEITA CLÁSSICA",
+    "ingredients": [
+      {
+        "name": "ÁGUA TÔNICA NORMAL OU ZERO",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "BITTER ANGOSTURA",
+        "qty": "3",
+        "unit": "ML"
+      },
+      {
+        "name": "ESPUMA GENGIBRE",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "EQUILIBRADO",
+    "copo": "CANECA DE COBRE",
+    "guarnicao": "LIMÃO DESITRATADO APOIADO NA HASTE",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, PASSAR TUDO PARA O COPO/TAÇA, COMPLETAR COM ESPUMA",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "NEGRONI",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "CAMPARI",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "VERMOUTH ROSSO",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "DIFERENÇA ENTRE VERMOUTHS",
+        "qty": "",
+        "unit": ""
+      },
+      {
+        "name": "MARTINI ROSSO",
+        "qty": "MAIS SUAVE",
+        "unit": ""
+      },
+      {
+        "name": "CARPANO ROSSO",
+        "qty": "SABOR MAIS COMPLEXO",
+        "unit": ""
+      },
+      {
+        "name": "PUNT E MES",
+        "qty": "MAIS AMARGO",
+        "unit": ""
+      }
+    ],
+    "paladar": "AMARGO, FORTE",
+    "copo": "COPO DE WHISKEY (FOREST)",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MEXIDO, MIXING GLASS, COAGEM SIMPLES",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "COFFEE NEGRONI",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "CAMPARI",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "VERMOUTH ROSSO",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR CAFÉ KAHLÚA",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "DIFERENÇA ENTRE VERMOUTHS",
+        "qty": "",
+        "unit": ""
+      },
+      {
+        "name": "MARTINI ROSSO",
+        "qty": "MAIS SUAVE",
+        "unit": ""
+      },
+      {
+        "name": "CARPANO ROSSO",
+        "qty": "SABOR MAIS COMPLEXO",
+        "unit": ""
+      },
+      {
+        "name": "PUNT E MES",
+        "qty": "MAIS AMARGO",
+        "unit": ""
+      }
+    ],
+    "paladar": "AMARGO, FORTE",
+    "copo": "COPO DE WHISKEY (FOREST)",
+    "guarnicao": "3 GRÃOS DE CAFÉ",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MEXIDO, MIXING GLASS, COAGEM SIMPLES",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "BOULEVARDIER",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "CAMPARI",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "VERMOUTH ROSSO",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "DIFERENÇA ENTRE VERMOUTHS",
+        "qty": "",
+        "unit": ""
+      },
+      {
+        "name": "MARTINI ROSSO",
+        "qty": "MAIS SUAVE",
+        "unit": ""
+      },
+      {
+        "name": "CARPANO ROSSO",
+        "qty": "SABOR MAIS COMPLEXO",
+        "unit": ""
+      },
+      {
+        "name": "PUNT E MES",
+        "qty": "MAIS AMARGO",
+        "unit": ""
+      }
+    ],
+    "paladar": "AMARGO, FORTE",
+    "copo": "COPO DE WHISKEY (FOREST)",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MEXIDO, MIXING GLASS, COPO COM GELO NOVO, COAGEM SIMPLES",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "NEGRONI SBAGLIATO",
+    "ingredients": [
+      {
+        "name": "ESPUMANTE (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "VERMOUTH ROSSO",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "CAMPARI",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "DIFERENÇA ENTRE VERMOUTHS",
+        "qty": "",
+        "unit": ""
+      },
+      {
+        "name": "MARTINI ROSSO",
+        "qty": "MAIS SUAVE",
+        "unit": ""
+      },
+      {
+        "name": "CARPANO ROSSO",
+        "qty": "SABOR MAIS COMPLEXO",
+        "unit": ""
+      },
+      {
+        "name": "PUNT E MES",
+        "qty": "MAIS AMARGO",
+        "unit": ""
+      }
+    ],
+    "paladar": "FORTE, AMARGO",
+    "copo": "COPO DE WHISKEY (FOREST)",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MEXIDO, MIXING GLASS, COAGEM SIMPLES, COMPLETAR COM ESPUMANTE",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "CAMPARI TÔNICA",
+    "ingredients": [
+      {
+        "name": "CAMPARI",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA TÔNICA(NORMAL OU ZERO",
+        "qty": "COMPLETAR",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, FRUTADO",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "GARIBALDI",
+    "ingredients": [
+      {
+        "name": "CAMPARI",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE LARANJA (1L)",
+        "qty": "100",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, FRUTADO",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "CUBA LIBRE",
+    "ingredients": [
+      {
+        "name": "RUM PRATA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "COCA-COLA (NORMAL OU ZERO)",
+        "qty": "COMPLETAR",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "REFRESCANTE, ADOCICADO",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "MEIA RODELA DE LIMÃO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "WHISKEY SOUR",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "ALBULMINA",
+        "qty": "0.5",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO",
+    "copo": "COPO DE WHISKEY 410 ML",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, COPO COM GELO NOVO, DRY SHAKE",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "DRY MARTINI",
+    "ingredients": [
+      {
+        "name": "GIN (TB)",
+        "qty": "60",
+        "unit": "ML"
+      },
+      {
+        "name": "VERMOUTH DRY",
+        "qty": "10",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "SECO, FORTE",
+    "copo": "TAÇA MARTINI",
+    "guarnicao": "3 AZEITONAS EM UM PALITO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MEXIDO, MIXING GLASS, GELAR TAÇA, COAGEM DUPLA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "PALOMA",
+    "ingredients": [
+      {
+        "name": "TEQUILA PRATA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE TORANJA",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "ÁGUA COM GÁS (500ML)",
+        "qty": "80",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO, REFRESCANTE",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "BORDA DE TAJIN / LARANJA NO PALITO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO NO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "PISCO SOUR",
+    "ingredients": [
+      {
+        "name": "PISCO",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO SICILIANO (SUCO)",
+        "qty": "30",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "ALBULMINA",
+        "qty": "1",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO",
+    "copo": "TAÇA MARTINI",
+    "guarnicao": "ZEST DE LIMÃO SICILIANO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, DRY SHAKE, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "SEX ON THE BEACH 2.0 SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "XAROPE DE PÊSSEGO",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE MORANGO",
+        "qty": "10",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE CRANBERRY",
+        "qty": "10",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE LARANJA (1L)",
+        "qty": "120",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "FRUTADO, LEVE",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "LARANJA E CEREJA NO PALITO",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "MONTAR OS INDREDIENTES MENOS O XAROPE DE MORANGO, FINALIZAR COM XAROPE DE MORANGO NO FUNDO PARA CRIAR DEGRADÊ DE COR",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "VODKA COM ENERGÉTICO",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "REDBULL NORMAL OU ZERO",
+        "qty": "COMPLETAR",
+        "unit": ""
+      }
+    ],
+    "paladar": "REFRESCANTE",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "SEM",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "JACK AND COKE",
+    "ingredients": [
+      {
+        "name": "WHISKEY (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "COCA-COLA NORMAL OU ZERO",
+        "qty": "COMPLETAR",
+        "unit": ""
+      }
+    ],
+    "paladar": "REFRESCANTE, AMADEIRADO, ADOCICADO",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "LIMÃO SICILIANO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "COSMOPOLITAN",
+    "ingredients": [
+      {
+        "name": "VODKA (TB)",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE CRANBERRY",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "LICOR CURAÇAO / TRIPLE-SEC",
+        "qty": "15",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO, FRUTADO",
+    "copo": "TAÇA MARTINI",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO, COAGEM DUPLA, GELAR TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "COSMOPOLITAN SEM ÁLCOOL",
+    "ingredients": [
+      {
+        "name": "XAROPE CRANBERRY",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "25",
+        "unit": "ML"
+      },
+      {
+        "name": "SUCO DE UVA BRANCA (1,5L)",
+        "qty": "100",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "CÍTRICO, FRUTADO",
+    "copo": "TAÇA MARTINI",
+    "guarnicao": "ZEST DE LARANJA",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "BATIDO/COADO - ADICIONAR GLITTER NA COQUETELEIRA / COAGEM DUPLA",
+    "alcohol_free": true,
+    "carta": "classicos"
+  },
+  {
+    "name": "MOJITO",
+    "ingredients": [
+      {
+        "name": "RUM PRATA (TB)",
+        "qty": "40",
+        "unit": "ML"
+      },
+      {
+        "name": "LIMÃO (SUCO)",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "XAROPE DE AÇÚCAR",
+        "qty": "20",
+        "unit": "ML"
+      },
+      {
+        "name": "HORTELÃ (VASO)",
+        "qty": "6",
+        "unit": "FOLHAS"
+      },
+      {
+        "name": "ÁGUA COM GÁS (500ML)",
+        "qty": "60",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "REFRESCANTE",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "COPA DE HORTELÃ",
+    "gelo": "",
+    "canudo": "LONGO",
+    "preparo": "MAÇERADO, MONTADO, DIRETONO NO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  },
+  {
+    "name": "JAGER BOMB",
+    "ingredients": [
+      {
+        "name": "JAGERMEISTER",
+        "qty": "50",
+        "unit": "ML"
+      },
+      {
+        "name": "ENERGÉTICO REDBULL (NORMAL OU ZERO)",
+        "qty": "COMPLETAR",
+        "unit": "ML"
+      }
+    ],
+    "paladar": "AMARGO, REFRESCANTE",
+    "copo": "COPO LONG DRINK 300 ML",
+    "guarnicao": "SEM GUARNIÇÃO",
+    "gelo": "",
+    "canudo": "",
+    "preparo": "MONTADO, DIRETONO CO COPO/TAÇA",
+    "alcohol_free": false,
+    "carta": "classicos"
+  }
+]
