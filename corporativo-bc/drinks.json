@@ -1,0 +1,248 @@
+[
+ {
+  "name": "CAIPIRINHA DE LIMÃO",
+  "artigo": "a",
+  "ingredients": [
+   {
+    "name": "VODKA/CACHAÇA",
+    "qty": "70",
+    "unit": "ML"
+   },
+   {
+    "name": "LIMÃO",
+    "qty": "3 a 4",
+    "unit": "PEDAÇOS"
+   },
+   {
+    "name": "AÇÚCAR",
+    "qty": "2 a 3",
+    "unit": "COLHERES"
+   }
+  ],
+  "paladar": "CÍTRICO",
+  "copo": "COPO BAIXO LHERMITAGE 330",
+  "guarnicao": "SEM GUARNIÇÃO",
+  "gelo": "",
+  "canudo": "CANUDO",
+  "preparo": "BATIDO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "CAIPIRINHA DE MORANGO",
+  "artigo": "a",
+  "ingredients": [
+   {
+    "name": "VODKA/CACHAÇA",
+    "qty": "70",
+    "unit": "ML"
+   },
+   {
+    "name": "MORANGO",
+    "qty": "4 a 5",
+    "unit": "PEDAÇOS"
+   },
+   {
+    "name": "AÇÚCAR",
+    "qty": "2 a 3",
+    "unit": "COLHERES"
+   }
+  ],
+  "paladar": "FRUTADO",
+  "copo": "COPO BAIXO LHERMITAGE 330",
+  "guarnicao": "SEM GUARNIÇÃO",
+  "gelo": "",
+  "canudo": "CANUDO",
+  "preparo": "BATIDO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "CAIPIRINHA DE MARACUJÁ",
+  "artigo": "a",
+  "ingredients": [
+   {
+    "name": "VODKA/CACHAÇA",
+    "qty": "70",
+    "unit": "ML"
+   },
+   {
+    "name": "MARACUJÁ",
+    "qty": "2",
+    "unit": "CONCHAS"
+   },
+   {
+    "name": "AÇÚCAR",
+    "qty": "2 a 3",
+    "unit": "COLHERES"
+   }
+  ],
+  "paladar": "CÍTRICO / FRUTADO",
+  "copo": "COPO BAIXO LHERMITAGE 330",
+  "guarnicao": "SEM GUARNIÇÃO",
+  "gelo": "",
+  "canudo": "CANUDO",
+  "preparo": "BATIDO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "GIN TÔNICA",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "GIN (BEEFEATER)",
+    "qty": "70",
+    "unit": "ML"
+   },
+   {
+    "name": "SUCO DE LIMÃO",
+    "qty": "10",
+    "unit": "ML"
+   },
+   {
+    "name": "TÔNICA",
+    "qty": "COMPLETAR",
+    "unit": ""
+   }
+  ],
+  "paladar": "AMARGO - SECO",
+  "copo": "TAÇA DE VINHO",
+  "guarnicao": "ESPECIARIAS",
+  "gelo": "",
+  "canudo": "SEM CANUDO",
+  "preparo": "MONTADO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "MOANA HARI",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "RUM (BACARDI CARTA PRATA)",
+    "qty": "50",
+    "unit": "ML"
+   },
+   {
+    "name": "MISTURA",
+    "qty": "100",
+    "unit": "ML"
+   }
+  ],
+  "paladar": "DOCE - FRUTADO",
+  "copo": "COPO LONG DRINK",
+  "guarnicao": "CANELA EM RAMA",
+  "gelo": "",
+  "canudo": "SEM CANUDO",
+  "preparo": "BATIDO",
+  "mistura": "BLEND DE TANGERINA, CANELA, PIMENTA E ABACAXI",
+  "alcohol_free": false
+ },
+ {
+  "name": "MOANA HARI SEM ÁLCOOL",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "BLEND DE MOANA HARI",
+    "qty": "150",
+    "unit": "ML"
+   }
+  ],
+  "paladar": "DOCE - FRUTADO",
+  "copo": "COPO LONG DRINK",
+  "guarnicao": "CANELA EM RAMA",
+  "gelo": "",
+  "canudo": "SEM CANUDO",
+  "preparo": "BATIDO",
+  "mistura": "BLEND DE TANGERINA, CANELA, PIMENTA E ABACAXI",
+  "alcohol_free": true
+ },
+ {
+  "name": "APEROL SPRITZ",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "APEROL",
+    "qty": "50",
+    "unit": "ML"
+   },
+   {
+    "name": "ESPUMANTE TERRANOVA VINTAGE",
+    "qty": "70",
+    "unit": "ML"
+   },
+   {
+    "name": "ÁGUA COM GÁS",
+    "qty": "30",
+    "unit": "ML"
+   }
+  ],
+  "paladar": "AMARGO - REFRESCANTE",
+  "copo": "TAÇA DE VINHO",
+  "guarnicao": "FATIA DE LARANJA",
+  "gelo": "",
+  "canudo": "SEM CANUDO",
+  "preparo": "MONTADO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "NEGRONI",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "GIN (BEEFEATER)",
+    "qty": "30",
+    "unit": "ML"
+   },
+   {
+    "name": "CAMPARI",
+    "qty": "30",
+    "unit": "ML"
+   },
+   {
+    "name": "VERMOUTH MARTINI ROSSO",
+    "qty": "30",
+    "unit": "ML"
+   }
+  ],
+  "paladar": "AMARGO E FORTE",
+  "copo": "COPO BAIXO (OLD FASHIONED)",
+  "guarnicao": "CASCA DE LARANJA",
+  "gelo": "1 GELO CUBO GRANDE TRANSLÚCIDO",
+  "canudo": "",
+  "preparo": "MEXIDO POR 20 SEGUNDOS NO COPO DEVIDO AO GELO CUBO",
+  "mistura": "",
+  "alcohol_free": false
+ },
+ {
+  "name": "MOSCOW MULE",
+  "artigo": "o",
+  "ingredients": [
+   {
+    "name": "VODKA (ABSOLUT)",
+    "qty": "50",
+    "unit": "ML"
+   },
+   {
+    "name": "ESPUMA DE GENGIBRE",
+    "qty": "COMPLETAR",
+    "unit": ""
+   },
+   {
+    "name": "MISTURA",
+    "qty": "50",
+    "unit": "ML"
+   }
+  ],
+  "paladar": "EQUILIBRADO",
+  "copo": "CANECA DE COBRE",
+  "guarnicao": "LIMÃO DESIDRATADO",
+  "gelo": "",
+  "canudo": "SEM CANUDO",
+  "preparo": "BATIDO / COMPLETAR COM ESPUMA",
+  "mistura": "SUCO DE LIMÃO, SIMPLE SYRUP E BITTER",
+  "alcohol_free": false
+ }
+]
