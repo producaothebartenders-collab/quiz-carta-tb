@@ -25,7 +25,7 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "1",
-        "unit": "ML"
+        "unit": "DASH"
       }
     ],
     "paladar": "AMARGO, AMADEIRADO",
@@ -90,8 +90,8 @@
       },
       {
         "name": "ESPUMA CUPUAÇU",
-        "qty": "30",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "DOCE, FRUTADO",
@@ -152,7 +152,7 @@
       {
         "name": "BITTER ANGOSTURA CACAU",
         "qty": "2",
-        "unit": "ML"
+        "unit": "DASHES"
       }
     ],
     "paladar": "CÍTRICO, PICANTE",
@@ -491,8 +491,8 @@
       },
       {
         "name": "ESPUMA DE AMÊNDOAS",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "DOCE, EQUILIBRADO, PICANTE",
@@ -827,12 +827,12 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "3",
-        "unit": "ML"
+        "unit": "DASHES"
       },
       {
         "name": "ESPUMA CANELA",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "PICANTE, DOCE",
@@ -912,8 +912,8 @@
       },
       {
         "name": "ESPUMA BAUNILHA",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "FRUTADO, ADOCICADO",
@@ -984,7 +984,7 @@
       {
         "name": "ALBULMINA",
         "qty": "0.5",
-        "unit": "ML"
+        "unit": "COLHER"
       }
     ],
     "paladar": "DOCE, FRUTADO, CÍTRICO",
@@ -1049,12 +1049,7 @@
       },
       {
         "name": "ESPUMA CUPUAÇU",
-        "qty": "20",
-        "unit": "ML"
-      },
-      {
-        "name": "GÁS PARA SIFÃO",
-        "qty": "0.1",
+        "qty": "COMPLETAR",
         "unit": ""
       }
     ],
@@ -1176,8 +1171,8 @@
       },
       {
         "name": "ESPUMA AMARETTO COM ESPECIARIAS",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "EQUILIBRADO",
@@ -1332,7 +1327,7 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "3",
-        "unit": "ML"
+        "unit": "DASHES"
       }
     ],
     "paladar": "CÍTRICO",
@@ -1398,7 +1393,7 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "3",
-        "unit": "DASH"
+        "unit": "DASHES"
       }
     ],
     "paladar": "FRUTADO, CÍTRICO",
@@ -1542,12 +1537,12 @@
       },
       {
         "name": "XAROPE DE AÇÚCAR",
-        "qty": "730.0",
+        "qty": "730",
         "unit": "ML"
       },
       {
         "name": "FERNET BRANCA",
-        "qty": "270.0",
+        "qty": "270",
         "unit": "ML"
       }
     ],
@@ -1581,12 +1576,12 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "3",
-        "unit": "ML"
+        "unit": "DASHES"
       },
       {
         "name": "ESPUMA GENGIBRE",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "EQUILIBRADO",
@@ -1657,12 +1652,12 @@
       {
         "name": "BITTER ANGOSTURA",
         "qty": "3",
-        "unit": "ML"
+        "unit": "DASHES"
       },
       {
         "name": "ESPUMA GENGIBRE",
-        "qty": "20",
-        "unit": "ML"
+        "qty": "COMPLETAR",
+        "unit": ""
       }
     ],
     "paladar": "EQUILIBRADO",
@@ -2004,7 +1999,7 @@
       {
         "name": "ALBULMINA",
         "qty": "0.5",
-        "unit": "ML"
+        "unit": "COLHER"
       }
     ],
     "paladar": "CÍTRICO",
@@ -2092,8 +2087,8 @@
       },
       {
         "name": "ALBULMINA",
-        "qty": "1",
-        "unit": "ML"
+        "qty": "0.5",
+        "unit": "COLHER"
       }
     ],
     "paladar": "CÍTRICO",
