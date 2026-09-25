@@ -8,6 +8,8 @@ Site estático. Pages: Settings → Pages → Deploy from branch `main` / root `
 
 URL esperada: `https://producaothebartenders-collab.github.io/quiz-carta-tb/`
 
+Quiz Criação de Drinks (famílias de coquetéis): `criacao-de-drinks/` — https://producaothebartenders-collab.github.io/quiz-carta-tb/criacao-de-drinks/
+
 ## Local
 
 Abra `index.html` no navegador, ou:

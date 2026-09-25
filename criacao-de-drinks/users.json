@@ -1,0 +1,241 @@
+{
+  "source": "lista autorizados (William)",
+  "users": [
+    {
+      "name": "Alexandre Silveira",
+      "pinHash": "05c138804d093c95d635cf76c73b5def0d69dc0e64fb9d576ade51c8d6be839f"
+    },
+    {
+      "name": "Aline Pupo Martins",
+      "pinHash": "35037a2dfa5a862617595552eebba4f26f9923b540a49b5aa2ab2415fa9df495"
+    },
+    {
+      "name": "Allan Cristopher Teixeira",
+      "pinHash": "9f4ecbad5720ca107b943525bfe2757c2fe81a86e11a5a33d2bafed030af277d"
+    },
+    {
+      "name": "Amanda Magalhães Henning",
+      "pinHash": "be352e5bb8b432b33930e0af5c602278c223059df3af6570bde5b2a1310ab635"
+    },
+    {
+      "name": "Ana Celina Guimarães Vaz",
+      "pinHash": "3aeb2f726942612e762913d9dc7bd671dbc0d10d90896eed1c8bf0851852222e"
+    },
+    {
+      "name": "Antônio Hoffmann de Avanço",
+      "pinHash": "c5cb205df341af4e8d7855b88fd560bd708796ab6aba2fa41bee557b314a8dee"
+    },
+    {
+      "name": "Bruno Guilherme Lubke",
+      "pinHash": "38578a213f7df97a25421a782bc6ec37eba8dca4a548d20f09b7b46da42472a6"
+    },
+    {
+      "name": "Bruno Pedroso",
+      "pinHash": "d42e68251092d902bf869e491cee381b73a939caf5a29ca3e13c1e71d4612d29"
+    },
+    {
+      "name": "Camilla Luana Bonato",
+      "pinHash": "f7e6121981c7e7a53136d7fca15742aa2d6155360d80245ab1dc495ef5bb4e43"
+    },
+    {
+      "name": "Cecília Bortoli Mariotto",
+      "pinHash": "08cc0b7b64cba181b2edb0a857ebb46ed7b58d1b29fc27d70ca10d34587761fc"
+    },
+    {
+      "name": "Daianny Mabilly Galdino da Silva",
+      "pinHash": "7f808ec0538a1f51071f5c813c8acf8aee39b13fc24116cc5581f8a9202502b1"
+    },
+    {
+      "name": "Daniel Canuto Silva",
+      "pinHash": "a6c9b8e75cee6a94a32234f2c5e2b9292813c280d254597c8772a53614e35e06"
+    },
+    {
+      "name": "Edilaine Oliveira Lima",
+      "pinHash": "9fdfdb12940f1b440301f369cc357223e45ffa24f5654da87792d43a8c584a74"
+    },
+    {
+      "name": "Eduarda Isa Moreira",
+      "pinHash": "d91e0cb56c03f59453c9df60f57b4ebadd9b8fe990638b627713585049825cbb"
+    },
+    {
+      "name": "Elian Eckel Treitny",
+      "pinHash": "581f31bd125f4dbd8afc40b81d5f1c98194cd62c86a93ac5328e800ec7fea053"
+    },
+    {
+      "name": "Emanuele Coppi Gonchorovski",
+      "pinHash": "fa97eaadbab0dc1b6d4b5c480a23f4a48a861c8cc6fc92ddb929397932a858e7"
+    },
+    {
+      "name": "Emily Gabrielle de Andrade",
+      "pinHash": "17c2c6360918ea235f2e65ddc70c858efc215744343651e5ffcd52c1af853a44"
+    },
+    {
+      "name": "Gabriel Rodrigo Petronilo Freitas",
+      "pinHash": "b73c404b9697403953b5212ed9c350f067363282c02ca20de9b19dea266c4015"
+    },
+    {
+      "name": "Gabriela Lemos Fagundes",
+      "pinHash": "a418ea178a1b78bc8b3aa4fe6ef220842f4425767528b681b3bc31f92154c7c8"
+    },
+    {
+      "name": "Gabrielly Allanis Martins Witajewski",
+      "pinHash": "e6963a84cb4430f6de89e6f566ea621d50d9269ef5514ecd2a893f887cb9bcec"
+    },
+    {
+      "name": "Giovanny Chagas da Silva",
+      "pinHash": "e3b327691488f463022f748348b4a1fe34ed1655d33a20ea650b967c463b18be"
+    },
+    {
+      "name": "Glória de Azevedo Peracetta",
+      "pinHash": "63ae2d857f77c169ddfb3ab0c2302e893ad38878d6b9acafc6f6ffca6dc698e2"
+    },
+    {
+      "name": "Guilherme da Rosa Ramos",
+      "pinHash": "4985ed034284faf5015eba3920bbfd6619f3d6910effec3416bb5cdf169cfcdd"
+    },
+    {
+      "name": "Guilherme Marodin",
+      "pinHash": "3d8216f694ddc7266f4c9a0a03daf49e184995435b2c14a3d6087290abf1b522"
+    },
+    {
+      "name": "Gustavo Henrique de Marchi",
+      "pinHash": "abca5034009bbe8826ba841db15e13e2574894e80b053b3e57ae9288abe45cb5"
+    },
+    {
+      "name": "Josué Roda Rodrigues",
+      "pinHash": "251fee8b7abbae883ec9e86bbdc0c7cced364ade1ae8f1bb7129348d7900a2ae"
+    },
+    {
+      "name": "João Eduardo de Araujo",
+      "pinHash": "f1e0059773561680d75712eeea1a4e38f05c8ea9db44d35fa85f8d03a9aae54f"
+    },
+    {
+      "name": "João Pedro Reitz Lemos",
+      "pinHash": "eff6c4b4f115a9d7384a8d62a80d0201c6afb17ed899befd69279ba375ebefd3"
+    },
+    {
+      "name": "Julia Helena Barbosa",
+      "pinHash": "f50e7d907fa3b7ee68eeed11a7a7c5bb845caf5246f89d882ad043114e852b38"
+    },
+    {
+      "name": "Karine Campos Schmidt Bill",
+      "pinHash": "bc5fb24eb3c5cff8d84dc7998b22f38df76c873559c80e1ac423352d99251ddb"
+    },
+    {
+      "name": "Kauany Malinoski da Veiga",
+      "pinHash": "115cdf7b6a750bf5b09e7d55cc8f6dd06c23965837227f617272f92f9a47b6fc"
+    },
+    {
+      "name": "Ketlyn Nicole Knupp de Oliveira",
+      "pinHash": "5a0e35806fe66ec5d4173161ac44a40278560bc5f70f5ac06f33ce57467f20ff"
+    },
+    {
+      "name": "Kleysson Rauan",
+      "pinHash": "8e4fdbc3270db0166805a03fac9c6db38662243526197107274aae7ca75fc6d8"
+    },
+    {
+      "name": "Lucas Eduardo Lemes",
+      "pinHash": "8f882b47f028c0a9d808c43153be921c9a660fa5001f56c1aa8fe07174ee0a4f"
+    },
+    {
+      "name": "Lucas Henrique de Mello Eleoterio",
+      "pinHash": "444e0c46dbe045c6e7f33096643a95e3a8ad6d4700bfa0f0df03dae8d46a3216"
+    },
+    {
+      "name": "Luccas Otavio dos Santos",
+      "pinHash": "ec7817b2fd16b51c437f458c7561ff0f5701a693054f3a5de68e08ea52cee342"
+    },
+    {
+      "name": "Luiza Snitynski da Silva",
+      "pinHash": "86385f0f6454251b63551b5273aaf960da24d2ae5ca2f5655c4b1cddd89b1ea3"
+    },
+    {
+      "name": "Maria Eduarda Cunha",
+      "pinHash": "6744c9489b6b8a902e0430f25b19857f5cbe0533e949a2b5c3c77dfd3268a5f6"
+    },
+    {
+      "name": "Mariana Suzuki",
+      "pinHash": "2ef2cee22ea094064ef384c9d6c8a945bd1f30074409f356a0d8d251f07e6e80"
+    },
+    {
+      "name": "Marina Costa Consulin",
+      "pinHash": "201b13f632996a4cc52fe8bca358e8b3a62220dc7437bcb61bd0daf4e5280f14"
+    },
+    {
+      "name": "Mateus Fernandes de Lara Prado",
+      "pinHash": "d957b967e98e1e8e68517c0240863ce9d3017e0bccf70c94fdb3df17a0e9eb87"
+    },
+    {
+      "name": "Nicolly Thaís Martins",
+      "pinHash": "96a947960ec763713a2e3221afb3750e2bcdb92a068adadbced7941ec6ea8bad"
+    },
+    {
+      "name": "Rafael Victor Sutil",
+      "pinHash": "a44a8506acc7bf74fb7bdf74576d0e6cf636e77dba6ca4259d1e390cd8f21d69"
+    },
+    {
+      "name": "Rogério Rumão",
+      "pinHash": "1abb6966841638bd16b43bec32eaa98b2b80ff0711f04d1ed788928172188bf2"
+    },
+    {
+      "name": "Thaiane Franciscon Machado",
+      "pinHash": "53fe53fcc560cf2575a9b26dc5a0f45ab1d4db542e39ec9246e19a92b28b3e62"
+    },
+    {
+      "name": "Thamires Fernanda",
+      "pinHash": "27e5da92e19ec537da9386257815151c446250d7b6398fbd752812f2eb536d6e"
+    },
+    {
+      "name": "Vinicious Mayer krinski",
+      "pinHash": "5c8cb1385dfa11e2accd1e0c2972ae5e691de79d10cf20a41072b2ff9dcbc9e7"
+    },
+    {
+      "name": "William José Ratusznei Fonseca",
+      "pinHash": "806cd5f68350fe7f609b219d89cb10e896b2e30c9e289f2b32b9069c91dd9abc"
+    },
+    {
+      "name": "Vitória Steiger de Carvalho",
+      "pinHash": "d0ef85c570cbd7d29895346d31312325c31d0fe6d6edc0da1eb6016c7e5dc8b4"
+    },
+    {
+      "name": "Beatriz Cella Rosa Romão",
+      "pinHash": "899b79aae8f1b7f146e8ab73db2ab2afbc5c5a84cc7e610eaabc0cd26edb184d"
+    },
+    {
+      "name": "Breno Bottega Bueno",
+      "pinHash": "b58e8c5ab1b9b10410042f84a809b3d36b0eb525665cf18c61c2776d1b02b79b"
+    },
+    {
+      "name": "Gabriel Soares",
+      "pinHash": "8cf3511be71d6c52cbaf5907bd8d511312afb224adf7d342e58cf68bb867fef3"
+    },
+    {
+      "name": "Isabela Pavoni Martinez",
+      "pinHash": "212ff0491de48bfa21ac18dd41e278504c55f16860308b33d98d17855a9bff4e"
+    },
+    {
+      "name": "Lanna Rafhaele de Oliveira",
+      "pinHash": "99e0ba235a26a47a6a11c27b3982b94c86d656a6ed00883bb8503f3894bc7455"
+    },
+    {
+      "name": "Luisa Yasmin Beraldo de Abreu",
+      "pinHash": "9cafc5163034b3af79770efef642a8b87ddc97aa5d4574dbffb28321cc676539"
+    },
+    {
+      "name": "Matheus Madureira",
+      "pinHash": "2798b3c7650c7a4753c2980669a2fe09532f3da298e0ae1e4eb8422814a6900e"
+    },
+    {
+      "name": "Ellen Camila Sidoski",
+      "pinHash": "97187e43b7c08ed8337efc4e80c37c9a6fa95abff092a0c9223fcce86e3b6406"
+    },
+    {
+      "name": "Henrique Ukan",
+      "pinHash": "d517694ef6ee179fdcd1456fa23aa7fd14c2ce01fc50db32e6b13ef01ba4aa4d"
+    },
+    {
+      "name": "Geovana Bollino Schaedler",
+      "pinHash": "be030c9353328dc0397336391a2e85ed102a5e12523cefaf9a431a9a67adda81"
+    }
+  ]
+}

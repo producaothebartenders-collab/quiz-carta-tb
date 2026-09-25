@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a0f0a" />
+  <title>Quiz Criação de Drinks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <main class="app" id="app">
+    
+    <section class="screen active" id="screen-login">
+      <div class="card login-card">
+        <img class="brand-logo" src="assets/logo-the-bartenders.png" alt="The Bartenders" width="180" height="180" />
+        <p class="eyebrow">Acesso autorizado</p>
+        <h1 class="login-title">Entrar no quiz</h1>
+        <p class="login-hint">Selecione seu nome e digite seu CPF (somente números).</p>
+        <label class="field-label" for="login-filter">Buscar nome</label>
+        <input type="search" id="login-filter" class="field-input" placeholder="Digite para filtrar…" autocomplete="off" />
+        <label class="field-label" for="login-name">Seu nome</label>
+        <select id="login-name" class="field-input field-select" size="6" aria-label="Lista de nomes">
+          <option value="">Carregando…</option>
+        </select>
+        <label class="field-label" for="login-cpf">CPF</label>
+        <input type="password" id="login-cpf" class="field-input" inputmode="numeric" maxlength="14" placeholder="00000000000" autocomplete="off" />
+        <p class="login-error hidden" id="login-error" role="alert"></p>
+        <button type="button" class="btn primary" id="btn-login">Entrar</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-start">
+      <div class="card hero">
+        <img class="brand-logo" src="assets/logo-the-bartenders.png" alt="The Bartenders" width="220" height="220" />
+        <p class="eyebrow">The Bartenders · Famílias de coquetéis</p>
+        <h1>Criação de Drinks</h1>
+        <p class="lead">Treine a criação por família: 4 perguntas por drink — receita (com doses), copo/taça, método de preparo e guarnição.</p>
+        <ul class="meta-list">
+          <li><strong id="drink-count">—</strong> drinks no treino</li>
+          <li><strong>4</strong> perguntas por drink escolhido</li>
+          <li><strong>10</strong> pontos por acerto</li>
+        </ul>
+        <p class="user-chip hidden" id="user-chip"></p>
+        <button type="button" class="btn primary" id="btn-start">Escolher drinks</button>
+        <button type="button" class="btn ghost btn-ranking hidden" id="btn-ranking-start">🏆 Ver ranking</button>
+        <button type="button" class="btn ghost" id="btn-logout">Sair</button>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-select">
+      <div class="card select-card">
+        <p class="eyebrow">Antes de começar</p>
+        <h2 class="select-title">Quais drinks entram no quiz?</h2>
+        <p class="select-hint">Marque os drinks das perguntas. As opções erradas vêm das outras receitas deste treino.</p>
+        <div class="select-toolbar">
+          <button type="button" class="btn ghost sm" id="btn-select-all">Marcar todos</button>
+          <label class="field-label sr-only" for="family-filter">Família</label>
+          <select id="family-filter" class="field-input family-select" aria-label="Filtrar por família">
+            <option value="">Todas as famílias</option>
+          </select>
+          <button type="button" class="btn ghost sm" id="btn-select-family">Só esta família</button>
+          <button type="button" class="btn ghost sm" id="btn-select-none">Limpar</button>
+          <span class="select-count" id="select-count">0 selecionados</span>
+        </div>
+        <input type="search" class="field-input drink-search" id="drink-search" placeholder="Buscar drink pelo nome…" aria-label="Buscar drink" autocomplete="off">
+        <div class="drink-list" id="drink-list" role="group" aria-label="Lista de drinks"></div>
+        <p class="drink-empty" id="drink-empty" hidden>Nenhum drink encontrado.</p>
+        <div class="select-actions">
+          <button type="button" class="btn primary" id="btn-play" disabled>Começar quiz</button>
+          <button type="button" class="btn ghost" id="btn-back-start">Voltar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-quiz">
+      <header class="topbar">
+        <div class="topbar-brand">
+          <img class="brand-logo-mini" src="assets/logo-the-bartenders.png" alt="" width="36" height="36" />
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="topbar-meta">
+          <span id="q-counter">1 / 10</span>
+          <span class="score-chip">★ <span id="live-score">0</span></span>
+        </div>
+      </header>
+      <div class="card question-card">
+        <p class="q-type" id="q-type"></p>
+        <h2 class="q-text" id="q-text"></h2>
+        <p class="multi-hint hidden" id="multi-hint">Marque só os ingredientes certos, digite a quantidade de cada um e confirme. Os falsos vêm do mesmo tipo de produto (sem blends de outros drinks).</p>
+        <div class="options" id="options" role="listbox" aria-label="Opções de resposta"></div>
+        <button type="button" class="btn primary hidden" id="btn-confirm">Confirmar resposta</button>
+        <div class="feedback hidden" id="feedback" aria-live="polite">
+          <p class="feedback-title" id="feedback-title"></p>
+          <p class="feedback-body" id="feedback-body"></p>
+          <button type="button" class="btn primary" id="btn-next">Próxima</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-result">
+      <div class="card result-card">
+        <img class="brand-logo brand-logo-sm" src="assets/logo-the-bartenders.png" alt="The Bartenders" width="120" height="120" />
+        <p class="eyebrow">Resultado</p>
+        <h1 id="result-title">Bom trabalho!</h1>
+        <p class="score-big"><span id="final-score">0</span><small>/100</small></p>
+        <p class="result-detail" id="result-detail"></p>
+        <p class="save-status hidden" id="save-status" role="status" aria-live="polite"></p>
+        <div class="result-actions">
+          <button type="button" class="btn primary" id="btn-replay">Jogar de novo</button>
+          <button type="button" class="btn ghost" id="btn-home">Escolher outros drinks</button>
+          <button type="button" class="btn ghost btn-ranking hidden" id="btn-ranking-result">🏆 Ver ranking</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="screen-ranking">
+      <div class="card ranking-card">
+        <p class="eyebrow">Ranking</p>
+        <h2 class="select-title">Top 10 do quiz</h2>
+        <p class="select-hint">Soma de acertos de todos os quizzes de cada pessoa. Empate: maior % de acerto.</p>
+        <p class="ranking-status" id="ranking-status" role="status" aria-live="polite"></p>
+        <div class="ranking-table-wrap hidden" id="ranking-table-wrap">
+          <table class="ranking-table">
+            <thead>
+              <tr><th scope="col" class="pos">#</th><th scope="col">Nome</th><th scope="col" class="num">Acertos</th><th scope="col" class="num">% acerto</th></tr>
+            </thead>
+            <tbody id="ranking-body"></tbody>
+          </table>
+        </div>
+        <p class="ranking-updated hidden" id="ranking-updated"></p>
+        <div class="select-actions">
+          <button type="button" class="btn ghost hidden" id="btn-ranking-retry">Tentar de novo</button>
+          <button type="button" class="btn primary" id="btn-ranking-back">Voltar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">The Bartenders · Quiz interno · Criação de Drinks</footer>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
